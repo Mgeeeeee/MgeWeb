@@ -3,16 +3,19 @@
 layout: home
 
 hero:
-  name: "MgeWeb"
-  text: "随笔"
-  tagline: My great project tagline
+  name: "Mgeeeeee"
+  # text: "MgeWeb"
+  tagline: 播下一些种子，静待花开
+  image:
+    src: /background.svg
+    alt: 背景图
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Swift
+      link: /Swift
+    # - theme: alt
+    #   text: API Examples
+    #   link: /api-examples
 
 features:
   - title: Feature A
