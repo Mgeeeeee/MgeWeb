@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress';
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   lastUpdated: true,
-  base: '/MgeWeb/',
+  // base: '/MgeWeb/',
   title: "MgeWeb",
   head: [["link", { rel: "icon", href: "/logo.png"}]],
   description: "MgeWeb",
