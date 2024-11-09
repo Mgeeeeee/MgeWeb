@@ -6,7 +6,7 @@ export default defineConfig({
   lastUpdated: true,
   base: '/MgeWeb/',
   title: "MgeWeb",
-  head: [["link", { rel: "icon", href: "/logo.svg"}]],
+  head: [["link", { rel: "icon", href: "/logo.png"}]],
   description: "MgeWeb",
   themeConfig: {
     logo: '/logo.svg',
