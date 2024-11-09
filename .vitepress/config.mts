@@ -1,11 +1,12 @@
 import { defineConfig } from 'vitepress';
-import { set_sidebar } from '../utils/auto_sidebar.mjs';
+// import { set_sidebar } from '../utils/auto_sidebar.mjs';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  lastUpdated: true,
   base: '/MgeWeb/',
   title: "MgeWeb",
-  head: [["link", { rel: "icon", href: "/MgeWeb/public/logo.svg"}]],
+  head: [["link", { rel: "icon", href: "/logo.svg"}]],
   description: "MgeWeb",
   themeConfig: {
     logo: '/logo.svg',
@@ -13,12 +14,37 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
       { text: 'Swift', link: '/Swift' },
-      // { text: 'Examples', link: '/Examples' }
     ],
 
     sidebar: {
-      '/Swift': set_sidebar('/Swift'),
+      '/Swift/': [
+        {
+          text: 'Swift',
+          collapsed: false,
+          items : [
+            { text: 'Swift', link :'/Swift/Swift' },
+          ]
+        },
+        {
+          text: 'SwiftUI',
+          collapsed: false,
+          items : [
+            { text: 'SwiftUI', link: '/Swift/SwiftUI' }
+          ]
+        },
+        {
+          text: 'SwiftData',
+          collapsed: false,
+          items : [
+            { text: 'SwiftData', link :'/Swift/SwiftData' }
+          ]
+        }
+      ]
     },
+
+    // sidebar: {
+    //   '/Swift': set_sidebar('/Swift'),
+    // },
 
     outlineTitle: "目录",
     outline: [2, 6],
