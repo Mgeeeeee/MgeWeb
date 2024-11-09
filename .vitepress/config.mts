@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress';
+
 // import { set_sidebar } from '../utils/auto_sidebar.mjs';
 
 // https://vitepress.dev/reference/site-config
@@ -55,6 +56,10 @@ export default defineConfig({
 
     footer: {
       copyright: "Copyright @ 2024 Mgeeeeee"
+    },
+    docFooter: {
+      prev: false,
+      next: false
     }
   }
   

@@ -1,0 +1,8 @@
+/* .vitepress/theme/style.css */
+:root {
+    .vp-doc h2{
+        border-top: none;
+
+    }
+  }
+
