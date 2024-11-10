@@ -10,7 +10,7 @@ export default defineConfig({
   head: [["link", { rel: "icon", href: "/logo.png"}]],
   description: "MgeWeb",
   themeConfig: {
-    logo: '/logo.svg',
+    logo: '/logo.png',
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
