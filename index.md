@@ -4,11 +4,11 @@ layout: home
 
 hero:
   name: "Mgeeeeee"
-  text: "构建知识库"
-  tagline: 🌱播下一些种子，静待花开
+  text: "碎 片 仓 库"
+  tagline: 🌱播下种子，静待花开🌸
   image:
     src: /background.svg
-    alt: 背景图
+    alt: Logo
   actions:
     - theme: brand
       text: Swift
@@ -18,11 +18,14 @@ hero:
     #   link: /api-examples
 
 features:
-  - title: 📚 Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - icon: 👏
+    title: 完成
+    details: 比完美更重要
+  - icon: 🍀
+    title: 生命并不长
+    details: 不要再赶时间了
+  # - icon: 🫧
+  #   title: 让时间
+  #   details: 只是时间
 ---
 
