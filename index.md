@@ -11,11 +11,11 @@ hero:
     alt: Logo
   actions:
     - theme: brand
+      text: 碎碎念
+      link: /
+    - theme: alt
       text: Swift
-      link: /Swift
-    # - theme: alt
-    #   text: API Examples
-    #   link: /api-examples
+      link: /
 
 features:
   - icon: 👏
